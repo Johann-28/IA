@@ -315,23 +315,25 @@ FinAlgoritmo
 
 
 
-![A*](/Fotos/Grafica1.png)
-![A*](/Fotos/Tabla1.png)
+![A*](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Grafica1.png)
+![A*](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Tabla1.png)
 
 > A*
 > 
 
 
-![Reconocido simulado](/Fotos/Grafica2.png)
-![Reconocido simulado](/Fotos/Tabla2.png)
+![Reconocido simulado](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Grafica2.png)
+![Reconocido simulado](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Tabla2.png)
 
 > Reconocido simulado
 > 
 <div style = text-align:justify >
+
 El algoritmo de reconocimiento simulado tiene un tiempo de ejecución que aumenta exponencialmente con la cantidad de objetos, por lo que cuando el número de objetos es muy grande, el tiempo de ejecución puede ser prohibitivo. Además, aunque el algoritmo puede ser útil para encontrar soluciones aproximadas a problemas de optimización combinatoria en general, se han desarrollado métodos más especializados y eficientes para problemas de la mochila con un gran número de objetos, como programación lineal entera y algoritmos genéticos.
 
 La razón por la cual el algoritmo de reconocimiento simulado se vuelve exponencialmente ineficiente para problemas con una gran cantidad de objetos es debido a la cantidad de soluciones posibles que deben ser exploradas. Conforme la cantidad de objetos aumenta, la cantidad de soluciones posibles crece de forma exponencial, lo que implica que se deben explorar una gran cantidad de soluciones para encontrar la mejor. El algoritmo de reconocimiento simulado explora un número limitado de soluciones, y aunque es capaz de encontrar una buena solución en muchos casos, para problemas grandes la solución encontrada puede estar lejos de ser la mejor. Por lo tanto, para problemas grandes, el algoritmo de reconocimiento simulado puede ser ineficiente y puede ser necesario buscar otros enfoques más adecuados.
 
+</div>
 > 
 > 
 > 
