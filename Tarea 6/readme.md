@@ -1,14 +1,14 @@
 # Reconocido Simulado
 
-<div style=justify-content:center >
+
 Equipo: 
 
 | Felix Yahveh Alanis Candelaria | 1947480 |
 | --- | --- |
-| Juan Carlos Diaz Gonzalez |  |
+| Juan Carlos Diaz Gonzalez | 1963196 |
 | Johann Joseph Velazquez Antonio | 1962111 |
 
-</div>
+
 ---
 ## Instrucciones
 
@@ -28,7 +28,9 @@ Hacer una comparativa con algún algoritmo informado o no informado de las tarea
 
 **Indicaciones Generales (Aplican a casi todas sus tareas)**
 <div style= text-align:justify>
+
 - Necesito ver gráficas de los resultados de su experimentación (boxplot, barras, etc.) y una pequeña conclusión en base a los resultados que obtuvieron, así como la descripción de las características del equipo donde corrieron los experimentos y las instancias que utilizaron.
+
 - Necesito que agreguen la liga al repositorio con el código que usaron.
 - No peguen código en su tarea , en su lugar, escríbanlo como pseudocódigo.
 - Si se deciden por el problema de ruta más corta utilicen las instancias del problema de ruta más corta que crearon en la tarea 2 y obtengan el valor óptimo con su algoritmo Dijkstra que también utilizaron en la tarea 2.
@@ -82,7 +84,7 @@ Evaluación de vecinos: Se calcula el valor de la solución vecina y se compara 
 
 En resumen, el algoritmo del reconocimiento simulado para resolver el problema de la mochila consiste en generar soluciones aleatorias, evaluarlas y generar soluciones vecinas mediante operaciones específicas. Luego, se aceptan o rechazan las soluciones vecinas en función de una probabilidad calculada utilizando la temperatura actual y se disminuye la temperatura gradualmente. El algoritmo se repite hasta que se alcance un criterio de parada, y se devuelve la mejor solución encontrada.
 </div>
-GITHUB: [https://github.com/Johann-28/IA](https://github.com/Johann-28/IA)
+
 
 
 
@@ -165,7 +167,13 @@ Fin Algoritmo
 ```
 ---
 ### Parte 2
-Compararemos los resultados de este algoritmo con el algoritmo informado A*, se utilizaron las mismas instancias en ambos análisis y se realizaron un número de 3 pruebas por cada instancia para poder mantener una mayor precisión y resultados, las isntancias utilizadas fueron: 
+
+<div style=text-align:justify>
+
+Los resultados de este algoritmo se compararon con el algoritmo informado A*, a continuación se expone el respectivo pseudocódigo, para más profundidad se puede acudir al repositorio corresponidiente a la [Tarea 5](https://github.com/Johann-28/IA/blob/main/Tarea5/Tarea5.pdf).
+
+Se utilizaron las mismas instancias en ambos análisis y se realizaron un número de 3 pruebas por cada instancia para poder mantener una mayor precisión y resultados, las isntancias utilizadas fueron: 
+</div>
 
 
 
@@ -229,6 +237,10 @@ Considerando que objetos = [(peso, beneficio)]
 
 </p>
 </details>
+
+<br>
+
+-------
 
 ```basic
 Algoritmo a_estrella
@@ -302,14 +314,18 @@ FinAlgoritmo
 ```
 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e13965e-a872-4b71-836e-34dca3d0e5a2/Untitled.png)
+
+![A*](/Fotos/Grafica1.png)
+![A*](/Fotos/Tabla1.png)
 
 > A*
 > 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/686051e5-ae88-4880-b1ce-019d30a2ca1e/Untitled.png)
 
-> Depth-First Search
+![Reconocido simulado](/Fotos/Grafica2.png)
+![Reconocido simulado](/Fotos/Tabla2.png)
+
+> Reconocido simulado
 > 
 <div style = text-align:justify >
 El algoritmo de reconocimiento simulado tiene un tiempo de ejecución que aumenta exponencialmente con la cantidad de objetos, por lo que cuando el número de objetos es muy grande, el tiempo de ejecución puede ser prohibitivo. Además, aunque el algoritmo puede ser útil para encontrar soluciones aproximadas a problemas de optimización combinatoria en general, se han desarrollado métodos más especializados y eficientes para problemas de la mochila con un gran número de objetos, como programación lineal entera y algoritmos genéticos.
