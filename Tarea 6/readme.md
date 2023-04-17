@@ -335,13 +335,11 @@ El algoritmo de reconocimiento simulado tiene un tiempo de ejecución que aument
 La razón por la cual el algoritmo de reconocimiento simulado se vuelve exponencialmente ineficiente para problemas con una gran cantidad de objetos es debido a la cantidad de soluciones posibles que deben ser exploradas. Conforme la cantidad de objetos aumenta, la cantidad de soluciones posibles crece de forma exponencial, lo que implica que se deben explorar una gran cantidad de soluciones para encontrar la mejor. El algoritmo de reconocimiento simulado explora un número limitado de soluciones, y aunque es capaz de encontrar una buena solución en muchos casos, para problemas grandes la solución encontrada puede estar lejos de ser la mejor. Por lo tanto, para problemas grandes, el algoritmo de reconocimiento simulado puede ser ineficiente y puede ser necesario buscar otros enfoques más adecuados.
 
 </div>
-> 
-> 
-> 
-> Se realizaron 3 iteraciones en cada configuración de grafo, y se graficó el promedio utilizado.
-> Todas las pruebas fueron echas bajo el mismo ambiente del IDE Visual Studio Code.
-> Las características del equipo en que se corrió fueron las siguientes:
-> SO: Windows 11 Home Single Language x64
-> Procesador: AMD Ryzen 5 5600H with Radeon Graphics            3.30 GHz
-> RAM: 16,0 GB
->
+
+>   Se realizaron 3 iteraciones en cada configuración de grafo, y se graficó el promedio utilizado.
+    Todas las pruebas fueron echas bajo el mismo ambiente del IDE Visual Studio Code.
+    Las características del equipo en que se corrió fueron las siguientes:
+    SO: Windows 11 Home Single Language x64
+    Procesador: AMD Ryzen 5 5600H with Radeon Graphics            3.30 GHz
+    RAM: 16,0 GB
+
