@@ -43,6 +43,7 @@ Hacer una comparativa con algún algoritmo informado o no informado de las tarea
 ## Introduccion
 
 <div style=text-align:justify>
+
 El algoritmo del reconocimiento simulado (Simulated Annealing) se puede describir en los siguientes pasos:
 
 - Inicializar la solución: Comenzar con una solución aleatoria para el problema de optimización.
