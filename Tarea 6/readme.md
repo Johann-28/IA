@@ -316,15 +316,15 @@ FinAlgoritmo
 
 
 
-![A*](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Grafica1.png)
-![A*](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Tabla1.png)
+![A*](https://raw.githubusercontent.com/Johann-28/IA/main/Tarea%206/Fotos/Grafica1.png)
+![A*](https://raw.githubusercontent.com/Johann-28/IA/main/Tarea%206/Fotos/Tabla1.png)
 
 > A*
 > 
 
 
-![Reconocido simulado](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Grafica2.png)
-![Reconocido simulado](https://github.com/Johann-28/IA/blob/main/Tarea%206/Fotos/Tabla2.png)
+![Reconocido simulado](https://raw.githubusercontent.com/Johann-28/IA/main/Tarea%206/Fotos/Grafica2.png)
+![Reconocido simulado](https://raw.githubusercontent.com/Johann-28/IA/main/Tarea%206/Fotos/Tabla2.png)
 
 > Reconocido simulado
 > 
